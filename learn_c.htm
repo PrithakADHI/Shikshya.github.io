@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://fonts.googleapis.com/css2?family=Papyrus&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <title>Shikshya - Learn C</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body bgcolor="#FFFCF9">
+        <nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+            <div class="space3"></div>
+            <a href="index.htm" class="w3-bar-item w3-button">Home</a>
+            <a href="learn_c.htm" onclick="w3_close()" class="w3-bar-item w3-button">Start Learning C</a>
+            <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+            <a href="intro.htm" class="w3-bar-item w3-button">A Thorough Introduction to C</a>
+            <a href="flow.htm" class="w3-bar-item w3-button">Flow Control in C</a>
+            <a href="arrays.htm" class="w3-bar-item w3-button">Arrays in C</a>
+            <a href="strings.htm" class="w3-bar-item w3-button">Strings in C</a>
+            <a href="func.htm" class="w3-bar-item w3-button">Functions in C</a>
+            <a href="structure.htm" class="w3-bar-item w3-button">Structure and Unions</a>
+            <a href="pointer.htm" class="w3-bar-item w3-button">Pointers in C</a>
+            <a href="file.htm" class="w3-bar-item w3-button">File Handling</a>
+          </nav>
+    <div class="navbar">
+        <div class="w3-button w3-padding-16 w3-left size" onclick="w3_open()">☰</div>
+        <div class="w3-center w3-padding-16 heading">Shikshya</div>
+    </div>
+    <div class="space2"></div>
+    <div class="headline">About the C Course</div>
+    <div class="subtitle">
+        Class 11 ra 12 ko Syllabus anusar hamle yo course design gareko cham. Hamro Course yesari design gariyeko cha ki
+        tapai le padhera matra ni purai C padhna saknu huncha yo site ma. Haina tapai lai video course haru dherai helpful
+        huncha vaney Video Lesson haru pani hamle sabai section ma include gareko cham. Harek section ko end ma euta optional
+        quiz pani banaiyeko cha. Tyo Quiz MCQ wala question haru lai help garcha hamle tyo quiz harek topic pachi lina laai 
+        ekdamai dherai recommend garcham. 
+    </div>
+    <div class="space"></div>
+    <div class="topic">
+        Syllabus of C Programming in Shikshya
+    </div>
+    <div class="subtitle">Class 11</div>
+    <ul>
+        <li><a href="intro.htm" class="list">A Thorough Introduction to C</a></li>
+        <li><a href="flow.htm" class="list">Flow Control in C</a></li>
+        <li><a href="arrays.htm" class="list">Arrays in C</a></li>
+        <li><a href="strings.htm" class="list">Strings in C</a></li>
+    </ul>
+    <div class="subtitle">Class 12</div>
+    <ul>
+        <li><a href="func.htm" class="list">Functions in C</li>
+        <li><a href="structure.htm" class="list">Structures and Unions</li>
+        <li><a href="pointer.htm" class="list">Pointers in C</li>
+        <li><a href="file.htm" class="list">File Handling</li>
+    </ul>
+    </div>
+</body>
+
+<script>
+    function w3_open() {
+    if(document.getElementById("mySidebar").style.display == "none") {
+      document.getElementById("mySidebar").style.display = "block";
+    } else {
+      document.getElementById("mySidebar").style.display = "none"
+    }
+  }
+</script>
+
+</html>
